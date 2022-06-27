@@ -3,7 +3,7 @@ from discord import app_commands
 from discord.ext import commands, tasks
 from discord.ui import Button, View
 from datetime import datetime
-from RadicalBowler import guild_id, channel_id
+from Bot import guild_id, channel_id
 
 
 def embed(event, timestamp, attendance, color=0x22f7a5):
